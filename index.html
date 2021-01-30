@@ -66,7 +66,7 @@
                     <input id="fast-ticket-count" class="inp-style inp-width" type="number" name="" value="0">
                 </div>
                 <div class="plus-minus-btn">
-                    <p><span onclick=" handleBusTicket('fast-ticket', true)">+</span> <br><span onclick=" handleBusTicket('fast-ticket', false)">-</span></p>
+                    <button class="btn-click" onclick=" handleBusTicket('fast-ticket', true)">+</button><br><button class="btn-click" onclick=" handleBusTicket('fast-ticket', false)">-</button>
                 </div>
             </div>
                 <div class="input-group f-class">
@@ -75,7 +75,7 @@
                         <input id="ticket-count" class="inp-style inp-width" type="number" name="" value="0">
                     </div>
                     <div class="plus-minus-btn">
-                        <p><span onclick=" handleBusTicket('ticket', true)">+</span> <br><span onclick=" handleBusTicket('ticket', false)">-</span></p>
+                        <button onclick=" handleBusTicket('ticket', true)" class="btn-click">+</button> <br> <button onclick=" handleBusTicket('ticket', false)" class="btn-click">-</button>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@
                         <p>Charge 10% VAT</p>
                     </div>
                     <div class="right">
-                        <p id="vat">$50</p>
+                        <p id="vat">$0</p>
                     </div>
                 </div>
                 <hr>
@@ -110,15 +110,23 @@
             </div>
             <button id="booking" class="btn-style">Book Now</button>
         </div>
+        <!-- success-area -->
         <div id="success-area">
            <center><img src="images/success.png" alt=""></center>
             <div id="success">
-                <h1>successful</h1>
-                <h3>Your Booking</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+                <h1 id="h-1" class="h-1-4">successful</h1>
+                <h3 class="h-1-4">Your Booking</h3>
+                <h4 class="h-1-4">Bus : Mega City Bus</h4>
+                <p>From : Dhaka</p>
+                <p>To : Chittagone</p>
+                <p>Date : ****</p>
+                <p>exp : ****</p>
+                <p>Total : ****</p>
+                <p>signature : Mega City Bus</p>
             </div>
         </div>
     </main>
+    <!-- script -->
     <script src="script.js"></script>
     <!--Thank You-->
 </body>

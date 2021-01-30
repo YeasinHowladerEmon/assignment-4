@@ -65,6 +65,7 @@ nav ul li a:hover, a.active{
     float: right;
     width: 80%;
     margin: 50px 0px 0px 80px;
+    /* height: 90%; */
 }
 .booking-form h3{
     margin: 10px 0px;
@@ -135,13 +136,27 @@ nav ul li a:hover, a.active{
     margin: 50px 0px 0px 80px;
 }
 #success{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 45px;
-    font-weight: 500;
     text-transform: uppercase;
     text-align: center;
 }
+#h-1{
+    font-size: 60px;
+}
 img{
     width: 65%;
+}
+.btn-click{
+    background-color: #52af3a;
+    color: white;
+    padding: 8px;
+    margin: 6px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.h-1-4{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
 }
 
