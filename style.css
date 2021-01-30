@@ -43,6 +43,7 @@ nav ul li a:hover, a.active{
     grid-template-columns: 2fr 3fr;
     gap: 70px;
     align-items: center;
+    /* display: none; */
 }
 .booking-content{
     color: #fff;
@@ -50,7 +51,7 @@ nav ul li a:hover, a.active{
     float: left;
     margin-left: 50px;
 }
-.booking-content h1{
+.booking-content h1 {
     font-size: 70px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
@@ -122,3 +123,25 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#success-area{
+    display: none;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgb(24, 194, 236);
+    border-radius: 20px;
+    float: right;
+    width: 80%;
+    margin: 50px 0px 0px 80px;
+}
+#success{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+img{
+    width: 50%;
+}
+
